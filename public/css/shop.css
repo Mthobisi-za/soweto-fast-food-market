@@ -1,0 +1,47 @@
+.shop-container {
+    width: 100%;
+    height: auto;
+}
+
+.boxlayout {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    width: 30%;
+    height: auto;
+    border-radius: 30px;
+    background-color: grey;
+}
+
+.box img {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%;
+}
+
+.h4-box {
+    text-align: center;
+}
+
+.p-box {
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+}
+
+.short {
+    border-radius: 30px;
+}
+
+.shop-title {
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+<br> <br>
+<link rel="stylesheet" href="/css/menus.css">
+<div class="menus">
+    <div class="items">
+        <h2 class="shoptitle">{{shop.shop}}</h2> <br>
+        <div class="product">
+            <div class="store">
+                <div class="store-left">
+                    <img src="{{shop.img}}" alt="shop.shop">
+                </div>
+                <div class="store-right">
+                    <p class="store-info">
+                        Ratings: {{shop.ratings}} <br> <br>
+                        Location: {{shop.location}} <br> <br>
+                        Contact Details: {{shop.contact}}
+                    </p>
+                </div>
+            </div>
+        </div> <br> <br> <br>
+        <div class="actualmenus">
+            {{#each menus}}
+            <div class="menu-box">
+                <img src="{{this.img}}" alt="{{this.item}}"> <br> <br>
+                <form action="">
+                    <p class="menus-info">{{this.item}}</p> <br>
+                    <div class="list">
+                        <p>{{this.item}}</p>
+                        <p>{{this.price}}</p>
+                    </div>
+                    <button type="submit" class="btn order-btn">Order</button>
+                </form>
+            </div>
+
+            {{/each}}
+
+        </div>
+    </div>
+</div>
