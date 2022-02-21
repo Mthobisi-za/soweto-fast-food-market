@@ -48,7 +48,9 @@ app.get('/menu/:shop', useClient.menu);
 ///-------client end
 
 ////------business
-///-------business end
+const useBusiness = require('./business-factory/business-routes')(pool)
+app.get('/newbusiness', useBusiness.registerBusiness)
+    ///-------business end
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {

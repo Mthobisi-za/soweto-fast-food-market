@@ -50,10 +50,34 @@
     background-color: grey;
     border-radius: 30px;
     margin: auto;
+    color: white;
 }
 
 .menu-box img {
     width: 100%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+}
+
+.list {
+    display: flex;
+    gap: 40%;
+    color: white;
+}
+
+.p-space {
+    margin-left: 10px;
+}
+
+.menus-info {
+    text-align: center;
+}
+
+.btn-holder {
+    text-align: right;
+}
+
+.order-btn {
+    margin-right: 20px;
+    background: blue;
 }

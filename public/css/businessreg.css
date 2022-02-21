@@ -1,0 +1,53 @@
+.business-title {
+    text-align: center;
+}
+
+.business {
+    width: 90%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.span {
+    font-family: monospace;
+    margin-right: 20px;
+}
+
+.business-holder-laptop {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.b-left,
+.b-right {
+    width: 40%;
+    margin: auto;
+}
+
+.business-holder-phone {
+    display: none;
+}
+
+input {
+    width: 100%;
+}
+
+.btn-holder {
+    display: flex;
+    gap: 10%;
+}
+
+@media (max-width: 600px) {
+    .business-holder-laptop {
+        display: none;
+    }
+    .business-holder-phone {
+        width: 90%;
+        display: block;
+        background-color: #fff;
+        margin: auto;
+    }
+    input {
+        width: 50%;
+    }
+}
